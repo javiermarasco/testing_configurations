@@ -1,6 +1,6 @@
 [
     {
-        "vnet_name": "demo1",
+        "vnet_name": "demo-vnet-name-1",
         "resource_group_name": "resource_groupname",
         "address_space": [
             "10.0.0.0/23"
@@ -19,7 +19,7 @@
         }
     },
     {
-        "vnet_name": "demo2",
+        "vnet_name": "demo-vneT-name",
         "resource_group_name": "resource_groupname",
         "address_space": [
             "10.0.2.0/24"
@@ -27,7 +27,7 @@
         "dns_servers": [
             "10.0.1.12"
         ],
-        "vnet_location": "eastus2",
+        "vnet_location": "eastus3",
         "Subnets": {
             "name": "misubnet2",
             "address_prefixes": [
