@@ -1,0 +1,39 @@
+[
+    {
+        "vnet_name": "demo1",
+        "resource_group_name": "resource_groupname",
+        "address_space": [
+            "10.0.0.0/23"
+        ],
+        "dns_servers": [
+            "10.0.1.0",
+            "10.0.0.128"
+        ],
+        "vnet_location": "eastus2",
+        "Subnets": {
+            "name": "misubnet",
+            "address_prefixes": [
+                "10.0.0.0/24",
+                "10.0.0.128/24"
+            ]
+        }
+    },
+    {
+        "vnet_name": "demo2",
+        "resource_group_name": "resource_groupname",
+        "address_space": [
+            "10.0.2.0/24"
+        ],
+        "dns_servers": [
+            "10.0.1.12"
+        ],
+        "vnet_location": "eastus2",
+        "Subnets": {
+            "name": "misubnet2",
+            "address_prefixes": [
+                "10.0.2.0/24",
+                "10.0.2.128/24"
+            ]
+        }
+    }
+]
