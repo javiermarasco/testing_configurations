@@ -10,6 +10,6 @@ In these cases you can't rely on terraform to test if they are correct so you ne
 
 ## Solution
 
-This repository presents a way to acomplish this this by definind the configuration in a json file and then run a pester test to validate 
+This repository presents a way to accomplish this by defining the configuration in a json file and then run a pester test to validate 
 if the configuration files is correct according to our desires.
 

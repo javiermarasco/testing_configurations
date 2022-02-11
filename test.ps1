@@ -20,7 +20,7 @@ Describe "Check vnet_name is defined." -Verbose {
 
 # Example to verify namingconvention, this helps to enforce we don't create resources wrongly named.
 Describe "Check naming convention for vnet_name." -Verbose {
-    It "Verify the vnet_name for <Instance.vnet_name> matches naming convention lenght." -TestCases $TestCases -Verbose {
+    It "Verify the vnet_name for <Instance.vnet_name> matches naming convention length." -TestCases $TestCases -Verbose {
         Param($Instance)
         $Instance.vnet_name.split("-").count | should -be 4
     }
